@@ -1,0 +1,60 @@
+"Broomhandle Backup"
+{
+	"classes"
+	{
+		"sniper"		"1"
+	}
+	
+	"baseclass"		"smg"
+	"baseindex"		"16"
+	"mag"		"15"
+	"ammo"		"90"
+	"logname"		"smg"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.10"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.20"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_broomhandle/c_broomhandle.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_broomhandle/c_broomhandle.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/smg_shoot.wav"
+			"replace"	"zombies\broomhandle_backup_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/smg_shoot_Crit.wav"
+			"replace"	"zombies\broomhandle_backup_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

@@ -1,0 +1,48 @@
+"Bolshevik Bomber"
+{
+	"classes"
+	{
+		"heavy"		"1"
+	}
+	"baseclass"		"shotgun_hwg"
+	"baseindex"		"11"
+	"logname"		"shotgun"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.50"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_bolshevik_bomber/c_bolshevik_bomber.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_bolshevik_bomber/c_bolshevik_bomber.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot.wav"
+			"replace"	"zombies\tempest_shoot.wav"
+			"pitch"		"125"
+		}
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot_Crit.wav"
+			"replace"	"zombies\tempest_shoot_crit.wav"
+			"pitch"		"125"
+		}
+	}
+}

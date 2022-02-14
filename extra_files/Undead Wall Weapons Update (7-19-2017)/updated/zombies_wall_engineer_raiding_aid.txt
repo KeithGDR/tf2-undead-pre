@@ -1,0 +1,55 @@
+"Raiding Aid"
+{
+	"classes"
+	{
+		"engineer"		"0"
+	}
+	"baseclass"		"shotgun_primary"
+	"baseindex"		"9"
+	"mag"		"6"
+	"ammo"		"64"
+	"logname"		"shotgun"
+	"killicon"		""
+	"description"	"123"
+	"cw3_attributes"
+	{
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.50"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_raiding_aid/c_raiding_aid.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_raiding_aid/c_raiding_aid.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot.wav"
+			"replace"	"zombies\tempest_shoot.wav"
+			"pitch"		"125"
+		}
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot_Crit.wav"
+			"replace"	"zombies\tempest_shoot_crit.wav"
+			"pitch"		"125"
+		}
+	}
+}

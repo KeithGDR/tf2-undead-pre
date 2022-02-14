@@ -1,0 +1,75 @@
+"Boston Bulldog"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	"baseclass"		"scattergun"
+	"baseindex"		"13"
+	"mag"		"8"
+	"ammo"		"200"
+	"logname"		"scattergun"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.40"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6.25"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.70"
+		}
+		"weapon spread bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"scattergun no reload single"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"3"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_boston_bulldog/c_boston_bulldog.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_boston_bulldog/c_boston_bulldog.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot.wav"
+			"replace"	"zombies\boston_bulldog_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot_crit.wav"
+			"replace"	"zombies\boston_bulldog_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

@@ -1,0 +1,76 @@
+"Wunderwaffe DG2"
+{
+	"classes"
+	{
+		"engineer"		"0"
+	}
+	"baseclass"		"shotgun_primary"
+	"baseindex"		"588"
+	"logname"		"pomson"
+	"killicon"		""
+	"ammo"		"30"
+	"mag"		"3"
+	"description"	"123"
+	"cw3_attributes"
+	{
+		"override projectile type"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"13"
+		}
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.70"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.70"
+		}
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"maxammo primary reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.95"
+		}
+		"wunderwaffe projectile"
+		{
+			"plugin"	"tf2undead-weapons"
+			"value"		"1000.0 5.0 10.0"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_wunderwaffe/c_wunderwaffe.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_wunderwaffe/c_wunderwaffe.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons\pomson_fire_01.wav"
+			"replace"	"zombies\wunderwaffe_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons\pomson_fire_crit_01.wav"
+			"replace"	"zombies\wunderwaffe_shoot_crit.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		"weapons/bison_reload.wav"
+			"replace"	"zombies/wunderwaffe_reload.wav"
+			"pitch"		"100"
+		}
+	}
+}

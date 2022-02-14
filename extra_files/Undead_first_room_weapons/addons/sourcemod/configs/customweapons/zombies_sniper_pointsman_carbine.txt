@@ -1,0 +1,48 @@
+"Point Man's Carbine"
+{
+	"classes"
+	{
+		"sniper"		"0"
+	}
+	"baseclass"		"sniperrifle"
+	"baseindex"		"14"
+	"logname"		"sniperrifle"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"alt-fire disabled"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_pointsman_carbine/c_pointsman_carbine.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_pointsman_carbine/c_pointsman_carbine.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/sniper_shoot.wav"
+			"replace"	"zombies\kar_98_shot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/sniper_shoot_Crit.wav"
+			"replace"	"zombies\kar_98_shot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

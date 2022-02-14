@@ -1,0 +1,94 @@
+#1. Classes
+
+All players are forced to join red team. Only (Scout, Heavy, Engineer, and Sniper) are the playable classes. Minimum players max on red team are 4, and maximum are 10. Scout, Heavy, Engineer, and Sniper all will have the same health amount
+and same movement speed. All classes start with 150 health, and with the movement speed of a Demoman. If a player was hit by skeleton/zombie. That player's health will restore back to 100% if the player didn't take damage in 3 seconds.
+If a player is killed by skeletons, he can be revived by his teammates. Just like when you died in MvM ( http://images.akamai.steamusercontent.com/ugc/488934859887389060/7D6670379CF790D854700BB93CC80FB5F2ACF526/ ) a Medic can revive you.
+It works in the exact same way, if you die, you left that reanimator on your corpse. A teammate must hold "E" at you for X amount of seconds to revive you. If a teammate didn't revive you in time, like 20 seconds. You will be moved to
+spectator. However, you will be respawned at the next round. If all the players died. Game over obviously. The game restarts. Engineer is not allowed to build whatsoever. You only rely on team work and guns to survive.
+
+
+#2. Points
+
+Players can earn points by dealing damage to skeleton/zombies, as well as killing them. 10 point per hit, and 100 for kill. Players can use the points to buy (Wall weapons, use Mystery Box for a random weapon, Perks, and Upgrade weapons).
+Player will also be rewarded for 500 points, if they successfully revived a teammate. When you point your crosshair and a teammate, a text will display saying how many points they have.
+
+
+#3. Weapons
+Each classes has their own different starting weapons, wall weapons, and mystery box. Weapons are still undecided. One thing for sure, there will not be any default weapons, except for melee weapons. For weapons total amount, should be
+40+, if more or less.
+
+
+#4. Perks 
+
+Perks are expensive, in order to buy. Players must walk to the Perk Machine. All Perk Machines will somewhat look like Soda Machines. The perk machines will placed on different location of the map. When a player walk close to the perk 
+machine, a text will display on their screen saying "Press E to buy X perk for 2000 points". 
+
+List of Perks:
+
+1. Juggernog - 2500 points ( http://vignette4.wikia.nocookie.net/callofduty/images/3/3e/Juggernog_Machine_Render.png/revision/latest?cb=20130209102037 )
+ - Like above mentioned, a player will start with 150 health, obviously 150 aren't enough to get to higher round. What this Juggernog perk does is, increase the player's health max to 300. Simple as that, the time takes to recover your health
+will remian unchanged. Which is 3 seconds, if you don't take damage for 3 seconds, your health will instantly go back to 100%.
+
+2. Speed Cola - 3000 points ( http://vignette3.wikia.nocookie.net/callofduty/images/b/b2/Speed_Cola_Machine_Render.png/revision/latest?cb=20130209101012 )
+ - Speed Cola gives 50% faster reload for any weapons. Also 60% faster switch weapons speed.
+
+3. Double Tap - 2000 points ( http://vignette4.wikia.nocookie.net/callofduty/images/e/e5/Double_Tap_Root_Beer_Machine_Render.png/revision/latest?cb=20130209100427 )
+ - Double Tap increase all your weapons fire rate by 40%. Not only that, if you have a weapon that fire one bullet per shot. With double tap, 2 bullets per shot. One shot = 2 bullets. If you have a shotgun that fire 6 pellets per shot. 
+With Double Tap, it makes it 18 pellets per shot. So you do double damage to the skeletons/zombies. So having that faster fire rate won't waste your ammo, because you deal double damage.
+
+4. Quick Revive - 1500 points ( http://vignette3.wikia.nocookie.net/callofduty/images/d/de/Quick_Revive_Machine_Render.png/revision/latest?cb=20130209101631 )
+ - Quick Revive will decrease the time to revive a teammate by 50%. Without it, it takes 4 seconds to revive a teammmate by holing down "E" at them. With Quick Revive, it takes 2 seconds only.
+
+5. Stamin-Up - 2000 points ( http://vignette4.wikia.nocookie.net/callofduty/images/4/4d/Stamin-Up_Machine_Render.png/revision/latest?cb=20130209102649 )
+ - Above mentioned, all classes will start with the same movement speed of a Demoman. Stamin-Up will increase your movement speed, to the speed of a Scout.
+
+6. Deadshot Daiquiri - 1500 points ( http://vignette3.wikia.nocookie.net/callofduty/images/6/60/Deadshot_Daiquiri_Machine_Render.png/revision/latest?cb=20130209104136 )
+ - All bullets will penetrate through multiple skeletons/zombies. useful when there's a horde of skeletons/zombies chasing you.
+
+7. Pack-a-Punch -5000 points per use ( http://vignette3.wikia.nocookie.net/callofduty/images/c/ca/Pack-a-Punch_Machine_Der_Riese_WaW.png/revision/latest?cb=20160826123047 )
+ - Pack-A-Punch is what used to upgrade your weapons for 5000 points. The upgraded weapons will have increased damage, fire rate, reload speed, clip size, and ammo max. Having upgraded weapons and perks is the key to survive to higher rounds.
+
+There's no perks limit, a player can buy as many perks as long they can afford. If a player bought a perk, the perk icon will display on your screen, as a way to tell you what perks you have. 
+Perks icons in CoD Zombies ( http://i.imgur.com/N4Lt6Kl.jpg ). In TF2 for example ( http://i.imgur.com/VUmSmRN.jpg ). If a player is killed, and revived. That player will lost all the perks, except weapons and upgraded weapons. 
+They will need buy the perks all over again.
+
+#5. Zombies (or skeletons)
+
+If you have the ability to code a custom zombies ai. That would be neat, so i will ask my mapper to remove the skeletons spawning on the map. The zombies can only use melee (invisible melee weapon), so they will look hitting you with their
+fists. The zombies are basically player models equipped with voodoo soul. There will be Scout zombie, Soldier zombie, Pyro zombie, and other classes zombies. Their attack speed and damage are exact same. As for movement speed and health, 
+are depended on what wave you are playing. The zombies health and movement speed will increase wave after wave. Eventually they will move as fast as a Medic. With thousand health (probably round 20-30). 
+
+Boss, it would be great to have a zombie boss right? The zombie boss is basically Zombie Heavy with x2 resized. He move slow, and has tons of health. He one hit kill a player without "Juggernog perk", and 2 hit for player with Juggernog.
+He spawn once or twice in a wave, past wave 20 of course. 
+
+
+#6. Wave System
+
+If you are gonna code your own wave and zombies ai system. Then i will ask my mapper to make the map won't spawn skeletons at all. How the wave system work is, all the players will start in the map, and the wave won't start yet.
+All the players need to type in chat !ready. When all the players are ready, the game will restart and wave 1 will start. Round 1 will spawn like 10 zombies, with low health. Round 2 will spawn 15, with increased health. So on. 
+Higher round will spawn more zombies, and the zombies health will keep increasing wave after wave. Makes it even more diffcult to survive, but hey. That's the challenge.
+
+
+#7. Power Up
+
+Power Up are basically lucky drop. By killing zombies, there's a low chance they will drop a power up. 
+List of Power Up drops:
+
+1. Double Points - Last for 20 seconds for all you and all your teammates, you will earn x2 points. Basically you earn 10 point per hit from the zombies and 100 for kill. With double points, you earn
+20 points per hit, and 200 points for kill.
+2. Instant Kill - Last for 20 seconds, one shot kills everything, except for Zombie boss. Effect is for you and your teammates
+3. Nuke - When picked up, all the zombies will instantly die by explosion, the explosions won't damage you and your teammates. Only to all the zombies currently spawned on the map.
+4. Max Ammo - Fully restore your ammo and your teammate's to 100%. (Most important)
+5. Zombies Blood - When picked up, all the zombies will ignore you and your teammate for 15 seconds. They think you are one of them...
+
+The way these power up looks like the game will be:
+ 
+Double Points, will be a X2 model rotating
+Instant Kill, will be a human skull model rotating
+Nuke, will be a giant bomb like the Cart from payload model rotating
+Max Ammo, will be ammo box rotating
+Zombies Blood, will be a blood pack model rotating (google blood pack)
+
+
+
+So that's basically everything for now. Tell me what you think about everything i said above. Sorry for the wall of text, but i need to go details about it. I have been wanting this to be a mod for very long time.

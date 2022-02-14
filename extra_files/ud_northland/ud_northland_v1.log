@@ -1,0 +1,494 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.vmf
+Error! Variable "%keywords" is multiply defined in material "nature/wetmudground002a"!
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 210 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (348254 bytes)
+Error! To use model "models/player/items/crafting/weapons_case.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/items/crafting/weapons_case.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1584 texinfos to 864
+Reduced 98 texdatas to 90 (2743 bytes to 2567)
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+Wrote ZIP buffer, estimated size 8308, actual size 6084
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt
+ 945 portalclusters
+2770 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 25496 visible clusters (5.84%)
+Total clusters visible: 436301
+Average clusters visible: 461
+Building PAS...
+Average clusters audible: 872
+visdatasize:221935  compressed from 226800
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+3187 faces
+1088036 square feet [156677248.00 square inches]
+40 Displacements
+92439 Square Feet [13311352.00 Square Inches]
+3187 patches before subdivision
+48135 patches after subdivision
+99 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2355586, max 465
+transfer lists:  18.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13565, 13214, 12174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3313, 3161, 2570)
+Build Patch/Sample Hash Table(s).....Done<0.0177 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 132/1024         6336/49152    (12.9%) 
+brushes                883/8192        10596/98304    (10.8%) 
+brushsides            6861/65536       54888/524288   (10.5%) 
+planes                6520/65536      130400/1310720  ( 9.9%) 
+vertexes              6122/65536       73464/786432   ( 9.3%) 
+nodes                 2709/65536       86688/2097152  ( 4.1%) 
+texinfos               864/12288       62208/884736   ( 7.0%) 
+texdata                 90/2048         2880/65536    ( 4.4%) 
+dispinfos               40/0            7040/0        ( 0.0%) 
+disp_verts            2512/0           50240/0        ( 0.0%) 
+disp_tris             3872/0            7744/0        ( 0.0%) 
+disp_lmsamples      219084/0          219084/0        ( 0.0%) 
+faces                 3187/65536      178472/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2004/65536      112224/3670016  ( 3.1%) 
+leaves                2842/65536       90944/2097152  ( 4.3%) 
+leaffaces             3806/65536        7612/131072   ( 5.8%) 
+leafbrushes           2204/65536        4408/131072   ( 3.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            22898/512000      91592/2048000  ( 4.5%) 
+edges                13634/256000      54536/1024000  ( 5.3%) 
+LDR worldlights         99/8192         8712/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            333/32768        3330/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5697/65536       11394/131072   ( 8.7%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                37/512         13024/180224   ( 7.2%) 
+LDR lightdata         [variable]     2969836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      221935/16777216 ( 1.3%) 
+entdata               [variable]      157989/393216   (40.2%) 
+LDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+HDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+LDR leaf ambient      9734/65536      272552/1835008  (14.9%) 
+HDR leaf ambient      2842/65536       79576/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/80040    ( 0.0%) 
+pakfile               [variable]        6084/0        ( 0.0%) 
+physics               [variable]      348254/4194304  ( 8.3%) 
+physics terrain       [variable]       10284/1048576  ( 1.0%) 
+
+Level flags = 0
+
+Total triangle count: 8488
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+27 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.vmf
+Error! Variable "%keywords" is multiply defined in material "nature/wetmudground002a"!
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 210 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (348254 bytes)
+Error! To use model "models/player/items/crafting/weapons_case.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/items/crafting/weapons_case.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1584 texinfos to 864
+Reduced 98 texdatas to 90 (2743 bytes to 2567)
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+Wrote ZIP buffer, estimated size 8308, actual size 6084
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt
+ 945 portalclusters
+2770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1052 visible clusters (0.44%)
+Total clusters visible: 238879
+Average clusters visible: 252
+Building PAS...
+Average clusters audible: 666
+visdatasize:203432  compressed from 226800
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+1 minute, 37 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+3187 faces
+1088036 square feet [156677248.00 square inches]
+40 Displacements
+92439 Square Feet [13311352.00 Square Inches]
+3187 patches before subdivision
+48135 patches after subdivision
+99 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2355578, max 465
+transfer lists:  18.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13269, 12925, 11913)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3233, 3084, 2508)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(903, 830, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(258, 231, 152)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(76, 66, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(23, 19, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0144 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 132/1024         6336/49152    (12.9%) 
+brushes                883/8192        10596/98304    (10.8%) 
+brushsides            6861/65536       54888/524288   (10.5%) 
+planes                6520/65536      130400/1310720  ( 9.9%) 
+vertexes              6122/65536       73464/786432   ( 9.3%) 
+nodes                 2709/65536       86688/2097152  ( 4.1%) 
+texinfos               864/12288       62208/884736   ( 7.0%) 
+texdata                 90/2048         2880/65536    ( 4.4%) 
+dispinfos               40/0            7040/0        ( 0.0%) 
+disp_verts            2512/0           50240/0        ( 0.0%) 
+disp_tris             3872/0            7744/0        ( 0.0%) 
+disp_lmsamples      219084/0          219084/0        ( 0.0%) 
+faces                 3187/65536      178472/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2004/65536      112224/3670016  ( 3.1%) 
+leaves                2842/65536       90944/2097152  ( 4.3%) 
+leaffaces             3806/65536        7612/131072   ( 5.8%) 
+leafbrushes           2204/65536        4408/131072   ( 3.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            22898/512000      91592/2048000  ( 4.5%) 
+edges                13634/256000      54536/1024000  ( 5.3%) 
+LDR worldlights         99/8192         8712/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            333/32768        3330/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5697/65536       11394/131072   ( 8.7%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                37/512         13024/180224   ( 7.2%) 
+LDR lightdata         [variable]     2969836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      203432/16777216 ( 1.2%) 
+entdata               [variable]      157989/393216   (40.2%) 
+LDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+HDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+LDR leaf ambient      9715/65536      272020/1835008  (14.8%) 
+HDR leaf ambient      2842/65536       79576/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/80040    ( 0.0%) 
+pakfile               [variable]        6084/0        ( 0.0%) 
+physics               [variable]      348254/4194304  ( 8.3%) 
+physics terrain       [variable]       10284/1048576  ( 1.0%) 
+
+Level flags = 0
+
+Total triangle count: 8488
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+2 minutes, 16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+3187 faces
+1088036 square feet [156677248.00 square inches]
+40 Displacements
+92439 Square Feet [13311352.00 Square Inches]
+3187 patches before subdivision
+48135 patches after subdivision
+99 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2355576, max 465
+transfer lists:  18.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12004, 11232, 9818)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3132, 2936, 2329)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(891, 812, 578)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(256, 228, 149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(76, 66, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(23, 19, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0157 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 132/1024         6336/49152    (12.9%) 
+brushes                883/8192        10596/98304    (10.8%) 
+brushsides            6861/65536       54888/524288   (10.5%) 
+planes                6520/65536      130400/1310720  ( 9.9%) 
+vertexes              6122/65536       73464/786432   ( 9.3%) 
+nodes                 2709/65536       86688/2097152  ( 4.1%) 
+texinfos               864/12288       62208/884736   ( 7.0%) 
+texdata                 90/2048         2880/65536    ( 4.4%) 
+dispinfos               40/0            7040/0        ( 0.0%) 
+disp_verts            2512/0           50240/0        ( 0.0%) 
+disp_tris             3872/0            7744/0        ( 0.0%) 
+disp_lmsamples      219084/0          219084/0        ( 0.0%) 
+faces                 3187/65536      178472/3670016  ( 4.9%) 
+hdr faces             3187/65536      178472/3670016  ( 4.9%) 
+origfaces             2004/65536      112224/3670016  ( 3.1%) 
+leaves                2842/65536       90944/2097152  ( 4.3%) 
+leaffaces             3806/65536        7612/131072   ( 5.8%) 
+leafbrushes           2204/65536        4408/131072   ( 3.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            22898/512000      91592/2048000  ( 4.5%) 
+edges                13634/256000      54536/1024000  ( 5.3%) 
+LDR worldlights         99/8192         8712/720896   ( 1.2%) 
+HDR worldlights         99/8192         8712/720896   ( 1.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            333/32768        3330/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5697/65536       11394/131072   ( 8.7%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                37/512         13024/180224   ( 7.2%) 
+LDR lightdata         [variable]     2969836/0        ( 0.0%) 
+HDR lightdata         [variable]     2969836/0        ( 0.0%) 
+visdata               [variable]      203432/16777216 ( 1.2%) 
+entdata               [variable]      157989/393216   (40.2%) 
+LDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+HDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+LDR leaf ambient      9715/65536      272020/1835008  (14.8%) 
+HDR leaf ambient      5669/65536      158732/1835008  ( 8.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/80040    ( 0.0%) 
+pakfile               [variable]        6084/0        ( 0.0%) 
+physics               [variable]      348254/4194304  ( 8.3%) 
+physics terrain       [variable]       10284/1048576  ( 1.0%) 
+
+Level flags = 0
+
+Total triangle count: 8488
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+2 minutes, 0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.vmf
+Error! Variable "%keywords" is multiply defined in material "nature/wetmudground002a"!
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 210 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_halloween weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (348254 bytes)
+Error! To use model "models/player/items/crafting/weapons_case.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/player/items/crafting/weapons_case.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1584 texinfos to 864
+Reduced 98 texdatas to 90 (2743 bytes to 2567)
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+Wrote ZIP buffer, estimated size 8308, actual size 6084
+7 seconds elapsed
+
+
+
+4 threads
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+reading c:\users\jutre\documents\tf2 maps\ud_northland_v1.prt
+ 945 portalclusters
+2770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1053 visible clusters (0.44%)
+Total clusters visible: 238880
+Average clusters visible: 252
+Building PAS...
+Average clusters audible: 666
+visdatasize:203432  compressed from 226800
+writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+1 minute, 35 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+3187 faces
+1088036 square feet [156677248.00 square inches]
+40 Displacements
+92439 Square Feet [13311352.00 Square Inches]
+3187 patches before subdivision
+48135 patches after subdivision
+99 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2355578, max 465
+transfer lists:  18.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13270, 12927, 11914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3233, 3084, 2508)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(903, 830, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(258, 231, 152)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(76, 66, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(23, 19, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 132/1024         6336/49152    (12.9%) 
+brushes                883/8192        10596/98304    (10.8%) 
+brushsides            6861/65536       54888/524288   (10.5%) 
+planes                6520/65536      130400/1310720  ( 9.9%) 
+vertexes              6122/65536       73464/786432   ( 9.3%) 
+nodes                 2709/65536       86688/2097152  ( 4.1%) 
+texinfos               864/12288       62208/884736   ( 7.0%) 
+texdata                 90/2048         2880/65536    ( 4.4%) 
+dispinfos               40/0            7040/0        ( 0.0%) 
+disp_verts            2512/0           50240/0        ( 0.0%) 
+disp_tris             3872/0            7744/0        ( 0.0%) 
+disp_lmsamples      219084/0          219084/0        ( 0.0%) 
+faces                 3187/65536      178472/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2004/65536      112224/3670016  ( 3.1%) 
+leaves                2842/65536       90944/2097152  ( 4.3%) 
+leaffaces             3806/65536        7612/131072   ( 5.8%) 
+leafbrushes           2204/65536        4408/131072   ( 3.4%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            22898/512000      91592/2048000  ( 4.5%) 
+edges                13634/256000      54536/1024000  ( 5.3%) 
+LDR worldlights         99/8192         8712/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            333/32768        3330/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5697/65536       11394/131072   ( 8.7%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                37/512         13024/180224   ( 7.2%) 
+LDR lightdata         [variable]     2969836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      203432/16777216 ( 1.2%) 
+entdata               [variable]      157989/393216   (40.2%) 
+LDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+HDR ambient table     2842/65536       11368/262144   ( 4.3%) 
+LDR leaf ambient      9686/65536      271208/1835008  (14.8%) 
+HDR leaf ambient      2842/65536       79576/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/80040    ( 0.0%) 
+pakfile               [variable]        6084/0        ( 0.0%) 
+physics               [variable]      348254/4194304  ( 8.3%) 
+physics terrain       [variable]       10284/1048576  ( 1.0%) 
+
+Level flags = 0
+
+Total triangle count: 8488
+Writing c:\users\jutre\documents\tf2 maps\ud_northland_v1.bsp
+32 seconds elapsed

@@ -1,0 +1,70 @@
+"Kanopy Killer Scout"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	
+	"baseclass"		"scattergun"
+	"baseindex"		"13"
+	"mag"		"10"
+	"ammo"		"90"
+	"logname"		"Spas12"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.60"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.80"
+		}
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.50"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_spas12/c_spas12_scout.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_spas12/c_spas12_scout.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot.wav"
+			"replace"	"zombies/spas12_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot_crit.wav"
+			"replace"	"zombies\spas12_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

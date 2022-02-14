@@ -1,0 +1,75 @@
+"Desk Fan"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	
+	"baseclass"		"handgun_scout_primary"
+	"baseindex"		"220"
+	"mag"		"2"
+	"ammo"		"150"
+	"logname"		"Desk_Fan"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4.70"
+		}
+		"spread penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_desk_fan/c_desk_fan.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_desk_fan/c_desk_fan.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/short_stop_shoot.wav"
+			"replace"	"zombies\desk_fan_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/short_stop_shoot_crit.wav"
+			"replace"	"zombies\desk_fan_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

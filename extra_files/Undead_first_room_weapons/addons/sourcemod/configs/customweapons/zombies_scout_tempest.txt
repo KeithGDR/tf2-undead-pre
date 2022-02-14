@@ -1,0 +1,58 @@
+"Tempest"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	"baseclass"		"scattergun"
+	"baseindex"		"45"
+	"logname"		"bat"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.30"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.55"
+		}
+		"scattergun no reload single"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_tempest/c_tempest.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_tempest/c_tempest.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/scatter_gun_double_shoot.wav"
+			"replace"	"zombies\tempest_shoot.wav"
+			"pitch"		"125"
+		}
+		"player"
+		{
+			"find"		")weapons/scatter_gun_double_shoot_crit.wav"
+			"replace"	"zombies\tempest_shoot_crit.wav"
+			"pitch"		"125"
+		}
+	}
+}

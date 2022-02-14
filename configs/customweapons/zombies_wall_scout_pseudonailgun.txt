@@ -1,0 +1,70 @@
+"Pseudonailgun"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	
+	"baseclass"		"scattergun"
+	"baseindex"		"13"
+	"mag"		"10"
+	"ammo"		"90"
+	"logname"		"scattergun"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.70"
+		}
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.60"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.8"
+		}
+		"Reload time decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_pseudonailgun/c_pseudonailgun.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_pseudonailgun/c_pseudonailgun.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot.wav"
+			"replace"	"zombies\pseudonailgun_shoot.wav"
+			"pitch"		"125"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/scatter_gun_shoot_crit.wav"
+			"replace"	"zombies\pseudonailgun_shoot_crit.wav"
+			"pitch"		"125"
+		}
+	}
+}

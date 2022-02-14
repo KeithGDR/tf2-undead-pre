@@ -1,0 +1,11 @@
+Issues:
+
+The weapon fires the beam at incorrect position, the offset needs to be fixed. Also this weapon is based on Shotgun, and it fires pomson beam. Because if you make the weapon completely based on pomson, it will have infinite ammo, so fuck that lol. The "baseclass" - "shotgun_primary" and "baseindex"- "588", please don't edit them. 
+
+Custom attribute, i want a custom attribute for this weapon which can fix the projectile firing offset and also when the beam impact or hit some thing, it will create a giant cow mangler's full charged shoot explosion. Deals infinite damage and huge radius. One shot everything died within the range.
+
+"wunderwaffe projectile" "1000.0 5.0 10.0" 
+
+1000.0 is the damage (configable)
+5.0 is the radius (configable)
+10.0 is cow manager charged shot explosion particle size. I want the particle size can be configable.

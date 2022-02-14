@@ -1,0 +1,60 @@
+"Co's Jewel"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	
+	"baseclass"		"pistol"
+	"baseindex"		"23"
+	"mag"		"15"
+	"ammo"		"120"
+	"logname"		"pistol"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.25"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"3.32"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_cosjewel/c_cosjewel.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_cosjewel/c_cosjewel.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/pistol_shoot.wav"
+			"replace"	"zombies\cojewel_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/pistol_shoot_crit.wav"
+			"replace"	"zombies\cojewel_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

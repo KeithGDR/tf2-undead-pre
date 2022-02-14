@@ -1,0 +1,69 @@
+"Raygun"
+{
+	"classes"
+	{
+		"scout"		"1"
+	}
+	"baseclass"		"pistol"
+	"baseindex"		"23"
+	"logname"		"pistol"
+	"killicon"		""
+	"description"	"123"
+	"cw3_attributes"
+	{
+		"fire rate penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.70"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4.45"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.65"
+		}
+		"is ray gun"
+		{
+			"plugin"	"tf2z_raygun"
+			"value"		"1.0"
+                }
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_raygun/c_raygun.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_raygun/c_raygun.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/pistol_shoot.wav"
+			"replace"	"zombies\raygun_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/pistol_shoot_crit.wav"
+			"replace"	"zombies\raygun_shoot_crit.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		"weapons/pistol_worldreload.wav"
+			"replace"	"zombies/raygun_fullreload.wav"
+			"pitch"		"100"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+"Twenty-Six Shooter"
+{
+	"classes"
+	{
+		"engineer"		"1"
+	}
+	
+	"baseclass"		"pistol"
+	"baseindex"		"22"
+	"mag"		"6"
+	"ammo"          "90"
+	"logname"		"pistol"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.85"
+		}
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"maxammo secondary reduced"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.45"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_twenty_six_shooter_shoot/c_twenty_six_shooter_shoot.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_twenty_six_shooter_shoot/c_twenty_six_shooter_shoot.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/pistol_shoot.wav"
+			"replace"	"zombies\twenty_six_shooter_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/pistol_shoot_crit.wav"
+			"replace"	"zombies\twenty_six_shooter_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

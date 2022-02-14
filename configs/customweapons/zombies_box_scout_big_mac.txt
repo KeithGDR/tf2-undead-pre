@@ -1,0 +1,71 @@
+"Big MAC"
+{
+	"classes"
+	{
+		"scout"		"1"
+
+	}
+	
+	"baseclass"		"pistol"
+	"baseindex"		"23"
+	"mag"		"20"
+	"ammo"		"200"
+	"logname"		"Big MAC"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.70"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"5.55"
+		}
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"damage bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.50"
+		}
+		"Reload time increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.50"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_bigmac/c_bigmac.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_bigmac/c_bigmac.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/pistol_shoot.wav"
+			"replace"	"zombies\bigmac_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/pistol_shoot_crit.wav"
+			"replace"	"zombies\bigmac_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

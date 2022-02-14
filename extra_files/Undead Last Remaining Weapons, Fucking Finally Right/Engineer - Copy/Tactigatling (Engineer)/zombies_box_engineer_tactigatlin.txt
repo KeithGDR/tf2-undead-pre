@@ -1,0 +1,70 @@
+"Tactigatling Engineer"
+{
+	"classes"
+	{
+		"engineer"		"0"
+	}
+	"baseclass"		"shotgun_primary"
+	"baseindex"		"11"
+	"mag"		"15"
+	"ammo"		"200"
+	"logname"		"shotgun"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"damage penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"fire rate bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.50"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6.25"
+		}
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+		"weapon spread bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.60"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_tactigatling/c_tactigatling.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_tactigatling/c_tactigatling.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot.wav"
+			"replace"	"zombies/tactigatling_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot_crit.wav"
+			"replace"	"zombies\tactigatling_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

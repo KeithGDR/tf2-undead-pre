@@ -1,0 +1,65 @@
+"Hand Cannon"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	"baseclass"		"handgun_scout_primary"
+	"baseindex"		"220"
+	"mag"		"1"
+	"ammo"		"60"
+	"logname"		"Hand Cannon"
+	"killicon"		""
+	"description"	"123"
+	"attributes"
+	{
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.20"
+		}
+		"Reload time decreased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.70"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"4"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.87"
+		}
+		"spread penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_handcannon/c_handcannon.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_handcannon/c_handcannon.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/short_stop_shoot.wav"
+			"replace"	"zombies\handcannon_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/short_stop_shoot_crit.wav"
+			"replace"	"zombies\handcannon_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

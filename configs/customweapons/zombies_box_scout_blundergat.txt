@@ -1,0 +1,70 @@
+"Blundergat"
+{
+	"classes"
+	{
+		"scout"		"0"
+	}
+	
+	"baseclass"		"scattergun"
+	"baseindex"		"45"
+	"mag"		"1"
+	"ammo"		"60"
+	"logname"		"bat"
+	"killicon"		""
+	
+	"attributes"
+	{
+		"clip size penalty"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.10"
+		}
+		"maxammo primary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.87"
+		}
+		"scattergun no reload single"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1"
+		}
+		"bullets per shot bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"6"
+		}
+		"weapon spread bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.50"
+		}
+	}
+	
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_blundergat/c_blundergat.mdl"
+	}
+	
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_blundergat/c_blundergat.mdl"
+	}
+	
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/scatter_gun_double_shoot.wav"
+			"replace"	"zombies\blundergat_shoot.wav"
+			"pitch"		"100"
+		}
+		
+		"player"
+		{
+			"find"		")weapons/scatter_gun_double_shoot_crit.wav"
+			"replace"	"zombies\blundergat_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

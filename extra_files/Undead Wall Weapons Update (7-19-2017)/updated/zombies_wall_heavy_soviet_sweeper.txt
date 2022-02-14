@@ -1,0 +1,55 @@
+"Soviet Sweeper"
+{
+	"classes"
+	{
+		"heavy"		"1"
+	}
+	"baseclass"		"shotgun_hwg"
+	"baseindex"		"11"
+	"mag"		"10"
+	"ammo"		"90"
+	"logname"		"shotgun"
+	"killicon"		""
+	"description"	"123"
+	"cw3_attributes"
+	{
+		"faster reload rate"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"0.80"
+		}
+		"clip size bonus"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"1.60"
+		}
+		"maxammo secondary increased"
+		{
+			"plugin"	"tf2attributes"
+			"value"		"2.80"
+		}
+	}
+	"viewmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+	}
+	"worldmodel"
+	{
+		"modelname"		"models/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+	}
+	"sound"
+	{
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot.wav"
+			"replace"	"zombies\soviet_sweeper_shoot.wav"
+			"pitch"		"100"
+		}
+		"player"
+		{
+			"find"		")weapons/shotgun_shoot_Crit.wav"
+			"replace"	"zombies\soviet_sweeper_shoot_crit.wav"
+			"pitch"		"100"
+		}
+	}
+}

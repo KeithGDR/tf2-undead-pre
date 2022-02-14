@@ -1,0 +1,54 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			"CBaseCombatCharacter::MyNextBotPointer"
+			{
+				"windows"	"72"
+				"linux"		"73"
+			}
+			"CZombie::GetLocomotionInterface"
+			{
+				"windows"		"48"
+				"linux"		"49"
+			}
+			"NextBotGroundLocomotion::Run"
+			{
+				"windows"	"55"
+				"linux"		"56"
+			}
+			"NextBotGroundLocomotion::Stop"
+			{
+				"windows"	"57"
+				"linux"		"58"
+			}
+			"CTFWeaponBaseGun::GetProjectileDamage"
+			{
+				"windows"	"466"
+				"linux"		"473"
+			}
+			"CTFBaseRocket::SetDamage"
+			{
+				"windows"	"129"
+				"linux"		"130"
+			}
+		}
+		"Signatures"
+		{
+			"CBaseAnimatingOverlay::AddGesture"
+			{
+				"linux"				"@_ZN21CBaseAnimatingOverlay10AddGestureE8Activityb"
+			}
+			"CBaseAnimatingOverlay::IsPlayingGesture"
+			{
+				"linux"				"@_ZN21CBaseAnimatingOverlay16IsPlayingGestureE8Activity"
+			}
+			"CBaseAnimating::LookupActivity"
+			{
+				"linux"				"@_ZN14CBaseAnimating14LookupActivityEPKc"
+			}
+		}
+	}
+}
